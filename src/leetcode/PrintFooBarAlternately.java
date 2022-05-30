@@ -6,7 +6,7 @@ package leetcode;
 public class PrintFooBarAlternately {
 
     static class FooBar {
-        private int n;
+        private final int n;
         private volatile boolean fooFlag = true;
 
         public FooBar(int n) {

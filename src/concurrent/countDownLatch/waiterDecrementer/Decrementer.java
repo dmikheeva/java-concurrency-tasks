@@ -1,4 +1,4 @@
-package concurrent.countDownLatch;
+package concurrent.countDownLatch.waiterDecrementer;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Exchanger;

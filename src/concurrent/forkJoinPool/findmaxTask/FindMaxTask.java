@@ -1,13 +1,7 @@
-package concurrent.forkJoinPool;
+package concurrent.forkJoinPool.findmaxTask;
 
-import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
-import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReadWriteLock;
 
 public class FindMaxTask extends RecursiveTask<Integer> {
     private int[] array;
